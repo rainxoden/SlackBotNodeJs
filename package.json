@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint"
+    "lint": "npx eslint src/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +22,8 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-watch": "^7.0.0"
+    "eslint-plugin-node": "^11.1.0"
   }
 }
