@@ -1,0 +1,30 @@
+{
+  "name": "SlackBotNodeJsSocketBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainxoden/SlackBotNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainxoden/SlackBotNodeJs/issues"
+  },
+  "homepage": "https://github.com/rainxoden/SlackBotNodeJs#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-watch": "^7.0.0"
+  }
+}
